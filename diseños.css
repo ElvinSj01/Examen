@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ 
+header{
+    border: solid 1px;
+    display: flex;
+    justify-content: space-between;
+ 
+    background: #0d0f16;
+    align-items: center;
+    
+    padding: 8px;
+}
+ 
+#logo-empresa{
+   /*border: solid 1px;*/
+    height: 120px;
+    display: flex;
+ 
+    align-items: center;
+ 
+    text-decoration: none;
+    color: white;
+}
+ 
+#logo{
+ 
+    height: 150px;
+    width: 150px;
+    margin-right: 10px;
+}
+ 
+#empresa{
+    font-size: 35px;
+    text-shadow:
+    0 0 5px rgba(0,178,255,1),
+    0 0 10px rgba(0,178,255,1),
+    0 0 20px rgba(0,178,255,1),
+    0 0 40px rgba(38,104,127,1),
+    0 0 80px rgba(38,104,127,1),
+    0 0 90px rgba(38,104,127,1),
+    0 0 100px rgba(38,104,127,1),
+    0 0 140px rgba(38,104,127,1),
+    0 0 180px rgba(38,104,127,1);
+
+}
+/*Aplicamos estilos a la barra de navegacion*/
+ 
+nav .link-nav{
+    padding-right: 15px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+ 
+    font-weight: bold; /*Aplica negrita*/
+}
+ 
+nav .link-nav:hover{
+    margin-top: 30%;
+    text-shadow:
+    0 0 5px rgba(0,178,255,1),
+    0 0 10px rgba(0,178,255,1),
+    0 0 20px rgba(0,178,255,1),
+    0 0 40px rgba(38,104,127,1),
+    0 0 80px rgba(38,104,127,1),
+    0 0 90px rgba(38,104,127,1),
+    0 0 100px rgba(38,104,127,1),
+    0 0 140px rgba(38,104,127,1),
+    0 0 180px rgba(38,104,127,1);
+}
+
+body{
+    background: rgb(21,33,70);
+    background: linear-gradient(90deg, rgba(21,33,70,1) 0%, rgba(1,5,18,1) 50%, rgba(2,14,47,1) 100%);
+}
